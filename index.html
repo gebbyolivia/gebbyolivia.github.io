@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum02</title>
+
+</head>
+
+<center>
+    <img alt="Logo Campus ITPLN" src="logocampus.jpg"
+    height="200" width="600" />
+
+</center>
+
+<h2><center> PENDATAAN MAHASISWA BARU INSTITUT TEKNOLOGI PLN </center></h2>
+<h2><center> Tahun Akademik 2020/2021 </center></h2>
+
+
+<body>
+    <fieldset>
+        <legend align="center"><h3> BIODATA DIRI </h3>></legend>
+       
+        <tr>
+            <td id="indeks"><label for="no"><b>No.Pendaftaran :</b></label></td>
+            <input type="text" name="no" value="" size="10">
+        </tr>
+        <p>
+            <td id="indeks"><label for="nik"><b>NIM :</b></label></td>
+            <input type="text" name="nim" value="" size="25">
+        </p>
+
+        <p>
+            <td id="indeks"><label for="nama"><b>Nama Lengkap :</b></label></td>
+            <input type="text" name="nama" value="" size="30">
+        </p>
+        <p>
+            <label><b>Tempat Lahir :</b></label>
+            <input type="text" name="kota" value="" size="20">
+        </p>
+        <p>
+           <label><b>Tanggal lahir :</b></label>
+           <input type="datetime-local" class="dateTime" name="starttime" id="startTime" step="2">
+        </p>
+        <p>
+            <label><b>Jenis kelamin :</b></label>
+            <label><input type="radio" name="gender" value="pr"/><label for="man">Laki-Laki</label>
+            <label><input type="radio" name="gender" value="Lk"/><label for="woman">Perempuan</label>
+        </p>
+        <p>
+            <label><b>Agama :</b>
+                <select name="country">
+                    <option>Islam</option>
+                    <option>Protestan</option>
+                    <option>Katolik</option>
+                    <option>Hindu</option>
+                    <option>Budha</option>
+                    <option>Konghuchu</option>
+                </select>
+        </p>
+        <p>
+           <label><b>Alamat Lengkap :</b></label>
+           <textarea name="alamat"></textarea>
+        </p>
+        <p>
+            <label><b>Kode Pos :</b></label>
+            <input type="text" name="kode" value="" size="10">
+        </p>
+        <p>
+            <label><b>Email :</b></label>
+            <input type="email" name="email" value="">
+        </p>
+        <p>
+            <label><b>Password :</b></label> 
+            <input type="password" name="nama" size="11" maxlength="9">
+        </p>
+        <br>
+            <b>Photo :</b> <input type="text"
+            name="photo"><input type="file" name="browse" value="browse" width="100/">
+        <br>
+        <p>
+            <label><b>Anak Ke- :</b></label>
+            <input type="number" name="anak" value="">
+        </p>
+        <p>
+            <label><b>No.Handphone :</b></label>
+            <input type="text" name="no_hp" value="" size="15">
+        </p>
+
+ </fieldset>
+
+ <fieldset>
+    <legend align="center"><h3> RIWAYAT PENDIDIKAN </h3></legend>
+
+    <tr>
+        <label><b>Asal Sekolah :</b></label>
+        <input type="text" name="asal_sekolah" value="" size="25">
+    </tr>
+    <p>
+        <label><b>Jurusan :</b></label>
+        <select name="jurusan">
+            <option> IPA </option>
+            <option> IPS </option>
+            <option> Lainnya </option>
+        </select>
+    </p>
+    <p>
+        <label><b>Nilai Ujian Akhir :</b></label>
+        <input type="number" name="nilai_akhir" value=""> 
+    </p>
+    <p>
+        <label><b>Organisasi yang diikuti :</b></label>
+        <br>
+        <label>
+            <input type="checkbox" name="ekskul" id="ekskul"
+            value="osis"/> OSIS
+         </label>
+         <br />
+
+         <input type="checkbox" name="ekskul" id="ekskul"
+            value="mpk"/> MPK
+         </label>
+         <br />
+       
+         <input type="checkbox" name="ekskul" id="ekskul"
+         value="Pramuka"/>
+         <label for="ekskul"> Pramuka</label>
+         <br />
+       
+         <label for="ekskul" >
+            <input type="checkbox" name="ekskul" id="ekskul"
+            value="pmr"/> PMR
+         </br>
+
+         <input type="checkbox" name="ekskul" id="ekskul"
+            value="paskibra"/> PASKIBRAKA
+         </label>
+         <br />
+        </label>
+    </p>
+</fieldset>
+
+<fieldset>
+    <legend align="center"><h3> DATA AYAH </h3></legend>
+
+    <p>
+        <label><b>Nama Ayah :</b></label>
+        <input type="text" name="nama_ayah" value="">
+    </p>
+    <p>
+        <label><b>No.Hp :</b></label>
+        <input type="text" name="no_hp" value="" size="25">
+    </p>
+    <p>
+        <label><b>Pekerjaan :</b></label>
+        <input type="text" name="kerja" value="">
+    </p>
+
+</fieldset>
+
+<fieldset>
+    <legend align="center"><h3> DATA IBU </h3></legend>
+
+    <p>
+        <label><b>Nama Ibu :</b></label>
+        <input type="text" name="nama_ibu" value="">
+    </p>
+    <p>
+        <label><b>No.Hp :</b></label>
+        <input type="text" name="no_hp" value="" size="25">
+    </p>
+    <p>
+        <label><b>Pekerjaan :</b></label>
+        <input type="text" name="kerja" value="">
+    </p>
+
+</fieldset>
+
+<fieldset>
+    <legend align="center"><h3> PROGRAM STUDI PILIHAN </h3></legend>
+
+    <p>
+        <label><b>Fakultas :</b></label>
+        <select name="fakultas">
+            <option> Fakultas Ketenagalistrikan dan Energi Terbarukan (FKET) </option>
+            <option> Fakultas Teknologi dan Bisnis energi (FTEB) </option>
+            <option> Fakultas Teknologi dan Insfrastruktur dan Kewilayahan (FTIK)</option>
+            <option>Fakultas Telematika energi (FTEN) </option>
+        </select>
+    </p>
+    <p>
+        <label><b>Program Studi :</b></label>
+        <select name="program_studi">
+            <option> S2 Teknik Elektro </option>
+            <option> S1 Teknik Elektro </option>
+            <option> D3 Teknik Elektro </option>
+            <option> S1 Teknik Mesin </option>
+            <option> D3 Teknik Mesin </option>
+            <option> S1 Teknik Sipil </option>
+            <option> S1 Teknik Informatika </option>
+        </select>
+    </p>
+    <p>
+        <label><b>Alasan Memilih Program Studi :</b></label>
+        <textarea name="alasan"></textarea>
+    </p>
+
+</fieldset>
+
+    <br>
+    <p>
+        <center><button type="button"> Submit </button></center>
+    </p>
+
+    <p>
+        <label><small> note : </small></label>
+    </br>
+        <label><small> *Saya menyatakan bahwa data yang saya berikan diatas sudah benar, dan saya bersedia menerima sanksi apabila saya melanggar pernyataan ini
+        </small></label>
+    </br>
+        <label><small>*Harap mengisi dengan teliti dan benar karena ada beberapa data yang tidak bisa diubah</small></label>
+    </br>
+        <label><small>*Terimakasih || #KsatriaPetir </small></label>
+    </p>
+    <p>
+    </br>
+        <label><b><h1><center> "SELAMAT DATANG DI INSTITUT TEKNOLOGI PLN" </center></h1></b></label>
+    </p>
+
+
+</body>
+</html>
